@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>Welcome to Mainpage</h1>
+<button onclick="location.href='{% url 'calc_home' %}'">Go to Calc</button>
+<button onclick="location.href='{% url 'travelo_home' %}'">Go to Travelo</button>
+
+{% endblock %}
